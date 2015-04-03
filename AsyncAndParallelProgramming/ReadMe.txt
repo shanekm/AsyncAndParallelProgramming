@@ -49,7 +49,14 @@ SUMMARY
 11. Task Operations
 	a. t.Wait() = wait until task completes
 		- t.Status => RanToCompletion, Cancelled, Faulted
-		- Raise condition
+		- Race condition - who finishes first/any errors?
 	b. t.WaitAny(new Task[] { yahoo, msn }) = wait for any task to finish
-	c. Harvesting results
+		- int index = Task.WaitAny(tasks);
+		- Task first = tasks[index]; // Now you can use index to grab result of task that finished first
+	c. WaitAll(tasks) - wait for ALL tasks to finish in WHATEVER order they finish
+	d. WaitAllOneByOne - wait for all but in order
+	d. Harvesting results
 		- Task<int> t = Task.Factory.StartNew(() => { code; return result; }); int r = t.Result = IMPORTANT = no need to call Wait() = implicitly Waiting for result t.Result;
+	e. Task composition - ordering of tasks, one needing result from first
+		- Task<decimal> t2 = t1.ContinueWith((antecedent) => { code } => wait for t1 to finish before starting t2
+	f. ContinueWhenAll(tasks, (setofTasks) => { code }) - continue when ALL have finished and result is needed
