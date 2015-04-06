@@ -1,0 +1,6 @@
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\AsyncAndParallelProgramming\AsyncAndParallelProgramming\bin\Debug\AsyncAndParallelProgramming.exe.config
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\AsyncAndParallelProgramming\AsyncAndParallelProgramming\bin\Debug\AsyncAndParallelProgramming.exe
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\AsyncAndParallelProgramming\AsyncAndParallelProgramming\bin\Debug\AsyncAndParallelProgramming.pdb
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\AsyncAndParallelProgramming\AsyncAndParallelProgramming\obj\Debug\AsyncAndParallelProgramming.csprojResolveAssemblyReference.cache
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\AsyncAndParallelProgramming\AsyncAndParallelProgramming\obj\Debug\AsyncAndParallelProgramming.exe
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\AsyncAndParallelProgramming\AsyncAndParallelProgramming\obj\Debug\AsyncAndParallelProgramming.pdb

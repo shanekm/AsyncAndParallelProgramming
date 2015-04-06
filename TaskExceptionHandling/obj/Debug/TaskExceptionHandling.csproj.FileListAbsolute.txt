@@ -1,0 +1,5 @@
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\AsyncAndParallelProgramming\TaskExceptionHandling\bin\Debug\TaskExceptionHandling.exe.config
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\AsyncAndParallelProgramming\TaskExceptionHandling\bin\Debug\TaskExceptionHandling.exe
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\AsyncAndParallelProgramming\TaskExceptionHandling\bin\Debug\TaskExceptionHandling.pdb
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\AsyncAndParallelProgramming\TaskExceptionHandling\obj\Debug\TaskExceptionHandling.exe
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\AsyncAndParallelProgramming\TaskExceptionHandling\obj\Debug\TaskExceptionHandling.pdb

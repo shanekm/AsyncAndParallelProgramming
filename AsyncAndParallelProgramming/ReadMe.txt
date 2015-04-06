@@ -60,3 +60,12 @@ SUMMARY
 	e. Task composition - ordering of tasks, one needing result from first
 		- Task<decimal> t2 = t1.ContinueWith((antecedent) => { code } => wait for t1 to finish before starting t2
 	f. ContinueWhenAll(tasks, (setofTasks) => { code }) - continue when ALL have finished and result is needed
+12. Exception handling
+	- IMPORTANT! - if a task throws an exception is unhandled task is Terminated
+	- if caught it is saved as AggregateException and stored in tasks object Exception property, and AggregateException is rethrown upon Wait(), Result(), WaitAll()
+	- WaitAny DOES NOT rethrow exception
+	- How to catch exceptions
+		a. use try/catch with Wait(), Result(), WaitAll()
+		b. access task's exception property: if ( tasks[i].Exception != null ) { code }
+		c. use TaskScheduler event: TaskScheduler.UnobservedTaskException += new EventHandler<UnobservedTaskExceptionEventArgs>(TaskUnobservedException_Handler);
+13. Task Cancellation - master/worker model (cancellation token), task monitors cancellation token 
